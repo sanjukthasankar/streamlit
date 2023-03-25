@@ -8,3 +8,5 @@ pw=st.slider("Enter Petalwidth",0.0,10.0,0.5)
 if st.button("Predict the Iris-Species"):
     save=predict(np.array([[sw,sl,pw,pl]]))
     st.success(save[0])
+    
+    
